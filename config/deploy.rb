@@ -5,7 +5,7 @@ set :application, "carddav"
 set :deploy_to, "/home/carddav/app"
 
 set :scm, :git
-set :repository,  "git@github.com:nonfiction/meishi.git"
+set :repository,  "git://github.com/nonfiction/meishi.git"
 
 default_run_options[:pty] = true
 set :use_sudo, false
